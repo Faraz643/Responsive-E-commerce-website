@@ -13,7 +13,8 @@
 - Responsive Footer
 
 # Screenshots:
-![Uploading home-ss-4-action.png…]()
+![home-ss-4-action](https://user-images.githubusercontent.com/92649053/190844695-b21a3649-7ed0-4545-8848-09b69bec8474.png)
+
 
 ![cart-ss-1-top](https://user-images.githubusercontent.com/92649053/190844644-e7f376e5-f101-44de-85ce-7008ae973e27.png)
 
