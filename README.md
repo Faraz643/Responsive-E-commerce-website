@@ -12,6 +12,12 @@
 - Social Icons with animations
 - Responsive Footer
 
+# Stack:
+· HTML 
+·CSS 
+·Vanilla-JS
+
+
 # Screenshots:
 ![home-ss-4-action](https://user-images.githubusercontent.com/92649053/190844695-b21a3649-7ed0-4545-8848-09b69bec8474.png)
 
