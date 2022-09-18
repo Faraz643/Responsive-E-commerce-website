@@ -2,6 +2,8 @@
 
 ![responsive-kit](https://user-images.githubusercontent.com/92649053/190844479-1e6a3acf-649d-44c2-834e-121e041e7649.png)
 
+Live : https://faraz643.github.io/Responsive-E-commerce-website/Html/index.html
+
 # Features :
 
 - Add Items in Cart 
