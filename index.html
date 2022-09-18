@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopHub - Home</title>
+    <link rel="stylesheet" href="../Styles/styles.css" />
+    <link rel="stylesheet" href="../Styles/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..200,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div class="navbar child" id="nav">
+      <nav>
+        <div class="soci-to-brdn">
+          <div class="brand-name">
+            <span
+              class="material-symbols-outlined menu-icon no-bd-black"
+              title="Social"
+              id="social-open"
+            >
+              atr
+            </span>
+          </div>
+          <div class="first-brand-wrapper">
+            <div class="brand-details">
+              <h2 class="brand-name">ShopHub</h2>
+              <!-- <span class="after-brand-name">jobs</span> -->
+            </div>
+            <div class="menu-icon-container">
+              <i class="fa-solid fa-xmark" id="close-navbar"></i>
+            </div>
+          </div>
+        </div>
+        <ul class="uo-li">
+          <a href="#" class="nav-link">
+            <li class="nav-item">Home</li>
+          </a>
+          <a href="" class="nav-link">
+            <li class="nav-item active">Shop</li>
+          </a>
+          <a href="" class="nav-link">
+            <li class="nav-item">Sign In</li>
+          </a>
+          <a href="" class="nav-link create-account-link">
+            <li class="nav-item">Create Account</li>
+          </a>
+        </ul>
+        <div></div>
+        <div></div>
+      </nav>
+    </div>
+    <div class="red-box child" id="red-box"></div>
+    <div class="black-box child" id="black-box"></div>
+
+    <div class="menu-icon-container show-menu-icon">
+      <i class="fa fa-bars" id="menu-open"></i>
+    </div>
+    <div class="br-name-fr-mb">
+      <h2 class="brand-name br-name-h2">ShopHub</h2>
+    </div>
+
+    <div class="cart-details">
+      <a href="./cart.html">
+        <!-- <span>$365</span> -->
+        <span class="cart-icon">
+          <span
+            class="material-symbols-outlined shopping-bag no-bd-black"
+            title="Cart"
+          >
+            shopping_bag
+          </span>
+          <span class="cart-counts" id="sum-items">0</span>
+        </span>
+      </a>
+    </div>
+    <!-- HERO BOX SECTION -->
+    <section class="article-section">
+      <!-- YELLOW RECTANGLE BOX -->
+      <div class="top-box">
+        <div class="filter-wrapper">
+          <div class="shopping-actions">
+            <span><span class="bg-white">Home</span> / product</span>
+          </div>
+          <h1 class="shop-text">Shop</h1>
+          <div class="search-filter">
+            <select name="products" id="products" class="filter">
+              <option value="default-search" selected>Default sorting</option>
+              <option value="Shoe">Shoe's</option>
+              <option value="Men">Men's</option>
+              <option value="Women">Women's</option>
+              <option value="Glass">Glasses</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ARTICLE CONTAINER -->
+    <div class="product-card-container" id="articles-inside">
+      <!-- INDIVIDUAL PRODUCT CARD -->
+      <!-- <article class="product-card">
+        <div class="img-large-cart-icon">
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            fit_screen
+          </span>
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            add_shopping_cart
+          </span>
+        </div>
+        <div class="product-details">
+          <div class="rect-box">
+            <img src="../Images/Shoes/nike-black-removebg-preview.png" alt="" />
+          </div>
+
+          <div class="name-price">
+            <h4 class="pro-name">Popular Shoe Trends</h4>
+            <p class="pro-price">$236.00</p>
+          </div>
+        </div>
+      </article>
+      <article class="product-card">
+        <div class="img-large-cart-icon">
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            fit_screen
+          </span>
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            add_shopping_cart
+          </span>
+        </div>
+        <div class="product-details">
+          <div class="rect-box clr-45409C">
+            <div class="yellow-circle"></div>
+            <img src="../Images/Shoes/nike-red-removebg-preview.png" alt="" />
+          </div>
+
+          <div class="name-price">
+            <h4 class="pro-name">Popular Shoe Trends</h4>
+            <p class="pro-price">$236.00</p>
+          </div>
+        </div>
+      </article>
+      <article class="product-card">
+        <div class="img-large-cart-icon">
+          <span
+            class="material-symbols-outlined article-icon no-bd-black"
+            title="Enlarge Image"
+          >
+            fit_screen
+          </span>
+          <span
+            class="material-symbols-outlined article-icon no-bd-black"
+            title="Add to cart"
+          >
+            add_shopping_cart
+          </span>
+        </div>
+        <div class="product-details">
+          <div class="rect-box clr-01AF67">
+            <div class="yellow-circle"></div>
+            <img src="../Images/Shoes/download.png" alt="" />
+          </div>
+
+          <div class="name-price">
+            <h4 class="pro-name">Popular Shoe Trends</h4>
+            <p class="pro-price">$236.00</p>
+          </div>
+        </div>
+      </article>
+      <article class="product-card">
+        <div class="img-large-cart-icon">
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            fit_screen
+          </span>
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            add_shopping_cart
+          </span>
+        </div>
+        <div class="product-details">
+          <div class="rect-box clr-45409C">
+            <div class="yellow-circle"></div>
+            <img
+              src="../Images/Sunglasses/charlesdeluvio-1-nx1QR5dTE-unsplash-removebg-preview.png"
+              alt=""
+            />
+          </div>
+
+          <div class="name-price">
+            <h4 class="pro-name">Popular Shoe Trends</h4>
+            <p class="pro-price">$236.00</p>
+          </div>
+        </div>
+      </article>
+      <article class="product-card">
+        <div class="img-large-cart-icon">
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            fit_screen
+          </span>
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            add_shopping_cart
+          </span>
+        </div>
+        <div class="product-details">
+          <div class="rect-box clr-01AF67">
+            <div class="yellow-circle"></div>
+            <img
+              src="../Images/Sunglasses/andres-hernandez-ouAyz-zRMTw-unsplash-removebg-preview.png"
+              alt=""
+            />
+          </div>
+
+          <div class="name-price">
+            <h4 class="pro-name">Popular Shoe Trends</h4>
+            <p class="pro-price">$236.00</p>
+          </div>
+        </div>
+      </article>
+      <article class="product-card">
+        <div class="img-large-cart-icon">
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            fit_screen
+          </span>
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            add_shopping_cart
+          </span>
+        </div>
+        <div class="product-details">
+          <div class="rect-box">
+            <div class="yellow-circle"></div>
+            <img
+              src="../Images/Hoodies/499-4999188_hoodie-clipart-blue-hoodie-hd-png-download-removebg-preview.png"
+              alt=""
+            />
+          </div>
+
+          <div class="name-price">
+            <h4 class="pro-name">Popular Shoe Trends</h4>
+            <p class="pro-price">$236.00</p>
+          </div>
+        </div>
+      </article>
+      <article class="product-card">
+        <div class="img-large-cart-icon">
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            fit_screen
+          </span>
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            add_shopping_cart
+          </span>
+        </div>
+        <div class="product-details">
+          <div class="rect-box">
+            <div class="yellow-circle"></div>
+            <img
+              src="../Images/shirts/tobias-tullius-Fg15LdqpWrs-unsplash-removebg-preview.png"
+              alt=""
+            />
+          </div>
+
+          <div class="name-price">
+            <h4 class="pro-name">Popular Shoe Trends</h4>
+            <p class="pro-price">$236.00</p>
+          </div>
+        </div>
+      </article>
+      <article class="product-card">
+        <div class="img-large-cart-icon">
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            fit_screen
+          </span>
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            add_shopping_cart
+          </span>
+        </div>
+        <div class="product-details">
+          <div class="rect-box clr-45409C">
+            <div class="yellow-circle"></div>
+            <img
+              src="../Images/shirts/santhosh-kumar-RqYTuWkTdEs-unsplash-removebg-preview.png"
+              alt=""
+            />
+          </div>
+
+          <div class="name-price">
+            <h4 class="pro-name">Popular Shoe Trends</h4>
+            <p class="pro-price">$236.00</p>
+          </div>
+        </div>
+      </article>
+      <article class="product-card">
+        <div class="img-large-cart-icon">
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            fit_screen
+          </span>
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            add_shopping_cart
+          </span>
+        </div>
+        <div class="product-details">
+          <div class="rect-box clr-01AF67">
+            <div class="yellow-circle"></div>
+            <img src="../Images/shirts/image-removebg-preview.png" alt="" />
+          </div>
+
+          <div class="name-price">
+            <h4 class="pro-name">Popular Shoe Trends</h4>
+            <p class="pro-price">$236.00</p>
+          </div>
+        </div>
+      </article>
+      <article class="product-card">
+        <div class="img-large-cart-icon">
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            fit_screen
+          </span>
+          <span class="material-symbols-outlined article-icon no-bd-black">
+            add_shopping_cart
+          </span>
+        </div>
+        <div class="product-details">
+          <div class="rect-box clr-01AF67">
+            <div class="yellow-circle"></div>
+            <img
+              src="../Images/shirts/faith-yarn-Wr0TpKqf26s-unsplash-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div class="name-price">
+            <h4 class="pro-name">Popular Shoe Trends</h4>
+            <p class="pro-price">$236.00</p>
+          </div>
+        </div>
+        <div class="count-item">
+          <p class="select-q">Select Quantity</p>
+          <div>
+            <span
+              class="material-symbols-outlined decrease-item no-bd-black"
+              title="Decrease quantity"
+              onclick="decreaseItem(this)"
+              id="${x.id}"
+              >remove</span
+            >
+            <span
+              class="material-symbols-outlined increase-item no-bd-black"
+              title="Increase quantity"
+              onclick="increaseItem(this)"
+              id="${x.id}"
+              >add</span
+            >
+          </div>
+          <div class="item-q-wrap">
+            <p class="item-quantity"></p>
+          </div>
+        </div>
+      </article> -->
+    </div>
+    <!-- FOOTER PART -->
+    <footer class="footer">
+      <div class="footer-top">
+        <h2 class="cust-care-text">
+          want to ask any queries? Get in touch with our customer care service.
+        </h2>
+        <div class="cc-details">
+          <a href="tel: +91 **********" class="cc-a care-num">
+            <span class="material-symbols-outlined article-icon no-bd-white">
+              call
+            </span>
+            <span>+91 **********</span>
+          </a>
+          <a href=" mailto: shophubexample@mail.com" class="cc-a company-mail">
+            <span class="material-symbols-outlined article-icon no-bd-white">
+              mail
+            </span>
+            <span>shophubexample@mail.com</span>
+          </a>
+        </div>
+      </div>
+      <div class="main-footer-content">
+        <div class="heading-pl-dn-content no-border">
+          <div class="mob-foot-style">
+            <h2 class="content-heading">customer care</h2>
+            <span
+              class="material-symbols-outlined article-icon footer-expand-more-icon no-bd-black"
+            >
+              expand_more
+            </span>
+            <span
+              class="material-symbols-outlined article-icon close-icon no-bd-black close-i-hide"
+            >
+              close
+            </span>
+          </div>
+          <div class="under-heading">
+            <p class="heading-dn-text"><a href="">where is my order</a></p>
+            <p class="heading-dn-text"><a href="">contact us</a></p>
+            <p class="heading-dn-text"><a href="">FAQ</a></p>
+            <p class="heading-dn-text"><a href="">shipping & delivery</a></p>
+            <p class="heading-dn-text"><a href="">returns & exchange</a></p>
+            <p class="heading-dn-text"><a href="">payment FAQs</a></p>
+          </div>
+        </div>
+
+        <div class="heading-pl-dn-content">
+          <div class="mob-foot-style">
+            <h2 class="content-heading">buying & selling</h2>
+            <span
+              class="material-symbols-outlined article-icon footer-expand-more-icon no-bd-black"
+            >
+              expand_more
+            </span>
+            <span
+              class="material-symbols-outlined article-icon close-icon no-bd-black close-i-hide"
+            >
+              close
+            </span>
+          </div>
+
+          <div class="under-heading">
+            <p class="heading-dn-text"><a href="">sell gold and silver</a></p>
+            <p class="heading-dn-text"><a href="">storage</a></p>
+            <p class="heading-dn-text"><a href="">international</a></p>
+            <p class="heading-dn-text"><a href="">fresh goods</a></p>
+            <p class="heading-dn-text"><a href="">coin values</a></p>
+          </div>
+        </div>
+
+        <div class="heading-pl-dn-content br-dwn">
+          <div class="mob-foot-style">
+            <h5 class="content-heading">education</h5>
+            <span
+              class="material-symbols-outlined article-icon footer-expand-more-icon no-bd-black footer-expand-none"
+            >
+              expand_more
+            </span>
+            <span
+              class="material-symbols-outlined article-icon close-icon no-bd-black close-i-hide"
+            >
+              close
+            </span>
+          </div>
+          <div class="under-heading">
+            <p class="heading-dn-text"><a href="">gold price</a></p>
+            <p class="heading-dn-text"><a href="">silver price</a></p>
+            <p class="heading-dn-text"><a href="">platinum price</a></p>
+            <p class="heading-dn-text"><a href="">how to buy</a></p>
+            <p class="heading-dn-text"><a href="">in the news</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Social icon circle animation -->
+    <div class="social-circle-container">
+      <div class="upper-circle">
+        <i
+          class="fa fa-brands fa-instagram insta-icon social-icons"
+          style="font-size: 20px"
+        ></i>
+       <i class="fa fa-brands fa-facebook facebook-icon social-icons" ></i>
+        <i class="fa fa-brands fa-github github-icon social-icons" onclick="window.open('https://github.com/faraz643', '_blank')"></i>
+        <i class="fa fa-brands fa-linkedin linkedin-icon social-icons" onclick="window.open('https://www.linkedin.com/in/farazrasool643/', '_blank')"></i>
+        <div class="second">
+          <span
+            class="material-symbols-outlined article-icon no-bd no-c-p"
+            id="social-close"
+          >
+            close
+          </span>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="../Js/app.js"></script>
+    <script src="../Js/animation.js"></script>
+    <script src="../Js/navbar.js"></script>
+    <script src="../Js/mob-footer.js"></script>
+  </body>
+</html>
+
